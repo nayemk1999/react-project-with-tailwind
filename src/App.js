@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
 import "tailwindcss/tailwind.css"
-import Header from './Components/Home/Header/Header';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
+import Home from './Components/Home/Home/Home';
 
 function App() {
   return (
     <Router >
       <Switch>
         <Route exact to="/">
-          <Header/>
+        <Home/>
         </Route>
         <Route to="/home">
-          <Header/>
+         <Home/>
         </Route>
       </Switch>
       
