@@ -29,12 +29,22 @@
 }
 
 .navbar-items {
-    margin-left: 150px;
+    margin-left: 350px !important;
 }
 
 @media screen and (max-width: 700px) {
     .navbar-items {
         margin: auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    .navbar-items {
+        margin-left: 120px !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .navbar-items {
+        margin: auto !important;
     }
 }
 
